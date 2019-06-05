@@ -36,7 +36,6 @@ print_something
 # ruby will automatically search for ".rb" files.
 
 # Specifying a return value from a method
-
 def return_sum(arg1, arg2)
     return arg1 + arg2
 end
@@ -74,4 +73,19 @@ Look like local variables, but behave like constants - immutable.
 (10..15).each do |n|
     print n, ' '
 end
+
+# Conditionals
+# ============
+# if statements
+if myvar == 0
+    return 0.0		# return a float, just for the heck of it
+end
+
+# if/else statements
+if myvar == 0
+    return 0.0		# return a float, just for the heck of it
+elsif myvar == 255
+    return 1
+end
+
 
